@@ -1,0 +1,17 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main() {
+
+    vector<int>v;  // a vector int
+
+  for(int i; cin >> I; )  
+	v.push_back(i);   //get values 
+   for(int i=0; i < v.size(); i++)  // print values Note the diff between < 
+                                    // <=, if we had used <= it will lead 
+                                    // to off by one error
+              cout << "v["<< i <<"] == " <<v[i] << '\n';
+ 
+
+}
